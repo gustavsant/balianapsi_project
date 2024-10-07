@@ -7,7 +7,6 @@ module.exports = {
         deepForestGreen: "#334F40",
         whiteSmoke: "#F5F5F5",
         goldenSand: "#AF9A65"
-
       },
       fontFamily: {
         title: ['Poltawski Nowy'],
