@@ -12,29 +12,35 @@
 <body class="font-body">
   <section class="h-screen bg-deepForestGreen flex flex-col"> <!--MAIN SECTION-->
     <nav id="nav"
-      class="z-30 absolute w-full bg-deepForestGreen transition-all p-4 border-b overflow-hidden border-black border-opacity-20 flex flex-col md:flex-row justify-center items-center align-middle gap-[34px] [&>*]:font-body text-whiteSmoke font-light tracking-wider">
-      <div class="absolute top-0 pt-4 md:hidden flex flex-col items-center justify-center">
+      class="z-30 h-20 absolute md:relative w-full bg-deepForestGreen transition-all p-4 border-b overflow-hidden border-black border-opacity-20 flex flex-col md:flex-row justify-center items-center align-middle gap-[34px] [&>*]:font-body text-whiteSmoke font-light tracking-wider text-center">
+      <button id="botaomenu" class="md:hidden absolute z-50 right-0 top-0 mt-6 mr-4 text-whiteSmoke text-3xl">
+        <ion-icon id="menu-icon" class="" name="menu-outline"></ion-icon>
+        <ion-icon id="close-icon" class="hidden" name="close-outline"></ion-icon>
+      </button>
+      <div class="z-10 absolute top-0 pt-4 md:hidden flex flex-col items-center justify-center bg-deepForestGreen">
         <p class="font-title md:text-4xl">AMANDA BALIANA</p>
         <span class="md:text-2xl font-normal tracking-widest">- PSICÓLOGA -</span>
       </div>
-      <button id="botaomenu" class="md:hidden absolute right-0 top-0 m-4">fecha</button>
-      <a href="#">SOBRE MIM</a>
-      <a href="#">PRATICA TERAPEUTICA</a>
-      <div class="hidden md:flex text-center flex-col items-center justify-center align-middle">
-        <p class="font-title text-4xl">AMANDA BALIANA</p>
-        <span class="text-2xl font-normal tracking-widest">- PSICÓLOGA -</span>
+      <div id="nav-items" class="flex flex-col justify-center md:flex-row w-full gap-8 items-center h-full transition-opacity opacity-0 md:opacity-100">
+        <a href="#">SOBRE MIM</a>
+        <a href="#">PRATICA TERAPEUTICA</a>
+        <div class="hidden md:flex text-center flex-col items-center justify-center align-middle">
+          <p class="font-title 2xl:text-4xl">AMANDA BALIANA</p>
+          <span class="2xl:text-2xl font-normal lg:tracking-widest text-nowrap">- PSICÓLOGA -</span>
+        </div>
+        <a href="#">PORQUE FAZER TERAPIA</a>
+        <a href="#">CONTATO</a>
       </div>
-      <a href="#">PORQUE FAZER TERAPIA</a>
-      <a href="#">CONTATO</a>
     </nav>
     <div class="flex-1 flex justify-center align-middle items-center">
       <div class="max-w-4xl lg:max-w-5xl mt-12 w-2/3 flex align-center items-center relative">
         <img src="images/orchid.svg" alt=""
-          class="absolute -left-40 2xl:-left-64 -top-20 2xl:-top-52 -rotate-[30deg] 2xl:h-[32rem]">
-        <div class="h-64 lg:h-72 bg-goldenSand w-[450px] lg:w-[550px] absolute flex items-center p-16 z-[3]">
+          class="absolute -left-40 2xl:-left-64 -top-20 2xl:-top-52 -rotate-[30deg] hidden 2xl:h-[32rem]">
+        <div
+          class="h-64 lg:h-72 bg-goldenSand md:w-[450px] lg:w-[550px] absolute flex items-center   p-8 md:p-16 z-[3]">
           <p class="font-title text-whiteSmoke text-center text-xl lg:text-2xl uppercase tracking-wider">
             A terapia não é uma promessa de que tudo vai ficar bem, mas uma possibilidade que as coisas podem ficar
-            melhores
+            melhores 
           </p>
           <button class="absolute bg-whiteSmoke rounded-lg py-3 px-5 -bottom-6 right-8 tracking-wider text-sm">ENTRAR EM
             CONTATO</button>
@@ -43,7 +49,7 @@
         <div class="relative">
           <img src="images/psychologist.jpeg" alt="" class="relative z-[2] 2xl:h-96">
           <img src="images/orchid.svg" alt=""
-            class="absolute top-48 2xl:top-24 left-[28rem] -rotate-[230deg] 2xl:h-[32rem]">
+            class="absolute top-48 2xl:top-24 left-[28rem] -rotate-[230deg] hidden md:block 2xl:h-[32rem]">
         </div>
       </div>
     </div>
@@ -69,12 +75,22 @@
   <footer>
     <!--        TODO: FOOTER-->
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 <script>
   const navBar = document.getElementById("nav");
   const botao = document.getElementById("botaomenu");
+  const navItems = document.getElementById("nav-items")
   botao.addEventListener("click", () => {
-    console.log('oi')
+    const menuIcon = document.getElementById("menu-icon")
+    const closeIcon = document.getElementById("close-icon")
+
+    menuIcon.classList.toggle("hidden")
+    closeIcon.classList.toggle("hidden")
+    navBar.classList.toggle("h-20")
+    navBar.classList.toggle("pt-20")
+    navItems.classList.toggle("opacity-0")
   })
 </script>
 
