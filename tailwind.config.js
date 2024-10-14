@@ -6,13 +6,13 @@ module.exports = {
       colors: {
         deepForestGreen: "#334F40",
         whiteSmoke: "#F5F5F5",
-        goldenSand: "#AF9A65"
+        goldenSand: "#AF9A65",
       },
       fontFamily: {
-        title: ['Poltawski Nowy'],
-        body: ['Poppins']
-      }
+        title: ["Poltawski Nowy"],
+        body: ["Poppins"],
+      },
     },
   },
   plugins: [],
-}
+};
