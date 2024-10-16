@@ -12,6 +12,9 @@ module.exports = {
         title: ["Poltawski Nowy"],
         body: ["Poppins"],
       },
+      backgroundImage: {
+        'hero': "url('/images/psychologist.jpeg')",
+      }
     },
   },
   plugins: [],
