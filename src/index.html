@@ -13,7 +13,7 @@
       <!--MAIN SECTION-->
       <nav
         id="nav"
-        class="fixed h-20 md:h-32 z-30 flex w-full flex-col items-center justify-center gap-[34px] overflow-hidden border-b border-black border-opacity-20 bg-deepForestGreen p-4 text-center align-middle font-light tracking-wider text-whiteSmoke transition-all md:relative md:flex-row [&>*]:font-body"
+        class="fixed z-30 flex h-20 w-full flex-col items-center justify-center gap-[34px] overflow-hidden border-b border-black border-opacity-20 bg-deepForestGreen p-4 text-center align-middle font-light tracking-wider text-whiteSmoke transition-all md:relative md:h-32 md:flex-row [&>*]:font-body"
       >
         <button
           id="botaomenu"
@@ -54,18 +54,18 @@
         </div>
       </nav>
       <div
-        class="bg-hero md:bg-none flex flex-1 justify-center bg-cover bg-fixed bg-center"
+        class="flex flex-1 justify-center bg-hero bg-cover bg-center md:bg-none"
       >
         <div
-          class="md:align-center relative mt-36 flex w-3/4 max-w-4xl flex-col-reverse justify-end bg-cover md:mt-12 md:w-2/3 md:flex-row md:items-center md:justify-normal lg:max-w-5xl"
+          class="md:align-center relative mt-36 flex w-3/4 max-w-4xl flex-col-reverse justify-end bg-cover md:my-12 md:w-2/3 md:flex-row md:items-center md:justify-normal lg:max-w-5xl"
         >
           <img
             src="images/orchid.svg"
             alt=""
-            class="hidden 2xl:flex -rotate-[30deg] absolute -left-44 -top-28 2xl:h-[32rem]"
+            class="absolute -left-44 -top-28 hidden -rotate-[30deg] 2xl:flex 2xl:h-[32rem]"
           />
           <div
-            class="z-[3] flex flex-col justify-center items-center gap-8 bg-goldenSand p-8 md:absolute  md:w-[450px] md:p-16 2xl:h-96 lg:w-[550px]"
+            class="z-[3] flex flex-col items-center justify-center gap-8 bg-goldenSand p-8 md:absolute md:w-[450px] md:px-12 md:py-16 lg:w-[550px] 2xl:h-96"
           >
             <p
               class="text-center font-title text-xl uppercase tracking-wider text-whiteSmoke lg:text-2xl"
@@ -89,17 +89,112 @@
             <img
               src="images/orchid.svg"
               alt=""
-              class="absolute hidden -rotate-[230deg] 2xl:block top-60 left-[35.5rem] h-[32rem]"
+              class="absolute left-[35.5rem] top-60 hidden h-[32rem] -rotate-[230deg] 2xl:block"
             />
           </div>
         </div>
       </div>
     </section>
-    <section class="h-screen">
-      <!--TODO: ABOUT ME-->
+    <section
+      class="relative min-h-screen flex w-full items-center justify-center gap-32 before:absolute before:right-0 before:top-0 before:h-full before:w-full before:bg-flowers before:bg-cover before:bg-fixed before:bg-center before:opacity-10 md:px-28 md:py-16 2xl:px-96"
+    >
+      <div
+        class="relative z-[1] flex h-full flex-col items-center px-10 py-16 md:flex-1 md:items-start md:p-0"
+      >
+        <div class="flex">
+          <h1
+            class="mb-4 inline-block w-full border-b border-b-deepForestGreen text-center font-title text-4xl uppercase text-deepForestGreen md:border-b-2 md:text-start md:text-8xl"
+          >
+            sobre mim
+          </h1>
+        </div>
+        <br />
+
+        <div
+          class="h-72 w-72 rounded-full bg-casual bg-cover bg-center md:hidden"
+        ></div>
+        <p
+          class="mb-2 mt-4 text-center text-lg md:my-8 md:text-start md:text-2xl"
+        >
+          Olá, me chamo Amanda Baliana!
+        </p>
+        <br />
+        <div
+          class="mt-4 bg-white p-4 text-base md:mt-0 md:bg-transparent md:p-0 [&>*]:font-body [&>*]:opacity-75"
+        >
+          <p>
+            Psicóloga (CRP 04/73053), graduada pelo Instituto Mestre de Ensino
+            Presidente Antonio Carlos (IMEPAC).
+          </p>
+          <br />
+          <p>
+            Ao longo da minha jornada, tenho o privilégio de ouvir e acolher
+            diversas histórias de vida. Meu trabalho é dedicado a proporcionar
+            um espaço seguro onde é possível explorar tristezas, angústias e
+            conquistas. Acredito no poder transformador da terapia e em sua
+            capacidade de promover autoconhecimento e crescimento pessoal.
+          </p>
+          <br />
+          <p>
+            Minha prática clínica é voltada para o acompanhamento psicológico de
+            adolescentes e adultos, nas modalidades presencial e online. Ofereço
+            uma escuta atenta e respeitosa, sempre alinhada às necessidades
+            individuais de cada paciente. Meu objetivo é auxiliar na construção
+            de recursos que favoreçam a qualidade de vida e a autonomia.
+          </p>
+        </div>
+      </div>
+      <div class="hidden md:flex">
+        <img src="images/casual.jpeg" class="h-[480px] 2xl:h-[610px] w-auto" alt="" />
+      </div>
     </section>
-    <section>
-      <!--TODO: THERAPIST PRACTICE-->
+    <section
+      class="min-h-screen bg-goldenSand px-4 py-8 md:flex md:flex-row-reverse md:p-0 [&>*]:text-whiteSmoke"
+    >
+      <div class="w-[60%] p-8 2xl:pr-72">
+        <!-- TEXTS DIV -->
+        <div class="flex justify-center md:justify-start">
+          <h1
+            class="mb-6 block border-b border-whiteSmoke text-center font-title text-2xl uppercase md:w-1/2 md:border-b-0 md:text-start md:text-4xl 2xl:text-5xl 2xl:w-full"
+          >
+            minha prática terapêutica
+          </h1>
+        </div>
+        <div class="flex flex-col gap-8 md:flex-row">
+          <p class="w-1/2 text-justify">
+            Meu propósito é trabalhar com você para compreendermos, através do
+            diálogo, como sua história pessoal foi construída, quais sentidos e
+            afetos você desenvolveu e como eles influenciam suas experiências
+            atuais. O foco da minha prática é auxiliar na ampliação e construção
+            de possibilidades de vida que estejam alinhadas com seus desejos e
+            que promovam um relacionamento mais saudável com sua própria
+            identidade e com os outros.
+          </p>
+          <br />
+          <div class="md:hidden">
+            <img src="images/professional.jpeg" alt="" />
+          </div>
+          <p class="w-1/2 text-justify">
+            Minhas sessões são caracterizadas por um ambiente dialogado e
+            reflexivo. Adoto uma postura clínica colaborativa e horizontal,
+            valorizando sua compreensão do mundo e sua autonomia. Isso permite
+            que você tenha um papel ativo em seu processo de mudança.
+          </p>
+          <br />
+        </div>
+        <p class="my-6 w-3/4 font-bold">
+          Se você está buscando um espaço seguro para desenvolver uma
+          perspectiva mais significativa sobre sua vida, estou a seu serviço!
+        </p>
+        <div class="flex w-full items-center justify-center md:justify-start">
+          <button class="border-b border-b-whiteSmoke text-xl">
+            ENTRAR EM CONTATO
+          </button>
+        </div>
+      </div>
+      <div class="flex-1 bg-professional bg-cover bg-center">
+        <!-- IMAGE DIV -->
+      </div>
     </section>
     <section>
       <!--TODO: SERVICES-->
@@ -129,7 +224,9 @@
     const navBar = document.getElementById("nav");
     const botao = document.getElementById("botaomenu");
     const navItems = document.getElementById("nav-items");
-    botao.addEventListener("click", () => {
+    botao.addEventListener("click", menuToggle);
+
+    function menuToggle() {
       const menuIcon = document.getElementById("menu-icon");
       const closeIcon = document.getElementById("close-icon");
 
@@ -138,6 +235,6 @@
       navBar.classList.toggle("h-20");
       navBar.classList.toggle("pt-20");
       navItems.classList.toggle("opacity-0");
-    });
+    }
   </script>
 </html>
