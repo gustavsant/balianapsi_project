@@ -96,33 +96,24 @@
       </div>
     </section>
     <section
-      class="relative min-h-screen flex w-full items-center justify-center gap-32 before:absolute before:right-0 before:top-0 before:h-full before:w-full before:bg-flowers before:bg-cover before:bg-fixed before:bg-center before:opacity-10 md:px-28 md:py-16 2xl:px-96"
+      class="relative flex min-h-screen w-full items-center justify-center gap-8 before:absolute before:right-0 before:top-0 before:h-full before:w-full before:bg-flowers before:bg-cover before:bg-fixed before:bg-center before:opacity-10 md:px-28 2xl:px-64"
     >
-      <div
-        class="relative z-[1] flex h-full flex-col items-center px-10 py-16 md:flex-1 md:items-start md:p-0"
-      >
-        <div class="flex">
-          <h1
-            class="mb-4 inline-block w-full border-b border-b-deepForestGreen text-center font-title text-4xl uppercase text-deepForestGreen md:border-b-2 md:text-start md:text-8xl"
-          >
-            sobre mim
-          </h1>
+      <div class="p-8 md:w-2/3">
+        <h1
+          class="mb-4 inline-block w-full border-b border-b-deepForestGreen text-center font-title text-4xl uppercase text-deepForestGreen md:border-b-2 md:text-start md:text-8xl"
+        >
+          sobre mim
+        </h1>
+        <div class="flex w-full items-center justify-center md:hidden">
+          <div
+            class="h-72 w-72 rounded-full bg-casual bg-cover bg-center"
+          ></div>
         </div>
-        <br />
-
-        <div
-          class="h-72 w-72 rounded-full bg-casual bg-cover bg-center md:hidden"
-        ></div>
-        <p
-          class="mb-2 mt-4 text-center text-lg md:my-8 md:text-start md:text-2xl"
-        >
-          Olá, me chamo Amanda Baliana!
-        </p>
-        <br />
-        <div
-          class="mt-4 bg-white p-4 text-base md:mt-0 md:bg-transparent md:p-0 [&>*]:font-body [&>*]:opacity-75"
-        >
-          <p>
+        <h2 class="my-4 text-center text-2xl md:text-start">
+          Olá! Me chamo Amanda Baliana.
+        </h2>
+        <div>
+          <p class="">
             Psicóloga (CRP 04/73053), graduada pelo Instituto Mestre de Ensino
             Presidente Antonio Carlos (IMEPAC).
           </p>
@@ -144,24 +135,24 @@
           </p>
         </div>
       </div>
-      <div class="hidden md:flex">
-        <img src="images/casual.jpeg" class="h-[480px] 2xl:h-[610px] w-auto" alt="" />
+      <div class="hidden h-screen w-96 py-14 md:flex">
+        <div class="h-full w-full bg-casual bg-cover bg-center"></div>
       </div>
     </section>
     <section
-      class="min-h-screen bg-goldenSand px-4 py-8 md:flex md:flex-row-reverse md:p-0 [&>*]:text-whiteSmoke"
+      class="min-h-screen bg-goldenSand p-8 md:flex md:flex-row-reverse md:p-0 [&>*]:text-whiteSmoke"
     >
-      <div class="w-[60%] p-8 2xl:pr-72">
+      <div class="flex flex-col md:w-[60%] md:p-8 2xl:pr-72">
         <!-- TEXTS DIV -->
         <div class="flex justify-center md:justify-start">
           <h1
-            class="mb-6 block border-b border-whiteSmoke text-center font-title text-2xl uppercase md:w-1/2 md:border-b-0 md:text-start md:text-4xl 2xl:text-5xl 2xl:w-full"
+            class="mb-4 block border-b border-whiteSmoke text-center font-title text-2xl uppercase md:w-1/2 md:border-b-0 md:text-start md:text-4xl 2xl:w-full 2xl:text-5xl"
           >
             minha prática terapêutica
           </h1>
         </div>
-        <div class="flex flex-col gap-8 md:flex-row">
-          <p class="w-1/2 text-justify">
+        <div class="flex flex-1 flex-col gap-8 md:flex-row">
+          <p class="text-justify md:w-1/2">
             Meu propósito é trabalhar com você para compreendermos, através do
             diálogo, como sua história pessoal foi construída, quais sentidos e
             afetos você desenvolveu e como eles influenciam suas experiências
@@ -170,24 +161,22 @@
             que promovam um relacionamento mais saudável com sua própria
             identidade e com os outros.
           </p>
-          <br />
           <div class="md:hidden">
             <img src="images/professional.jpeg" alt="" />
           </div>
-          <p class="w-1/2 text-justify">
-            Minhas sessões são caracterizadas por um ambiente dialogado e
+          <p class="text-justify md:w-1/2">
+            Minhas sessões são caracterizadas por um ambi4nte dialogado e
             reflexivo. Adoto uma postura clínica colaborativa e horizontal,
             valorizando sua compreensão do mundo e sua autonomia. Isso permite
             que você tenha um papel ativo em seu processo de mudança.
           </p>
-          <br />
         </div>
-        <p class="my-6 w-3/4 font-bold">
+        <p class="my-6 font-bold md:w-3/4">
           Se você está buscando um espaço seguro para desenvolver uma
           perspectiva mais significativa sobre sua vida, estou a seu serviço!
         </p>
         <div class="flex w-full items-center justify-center md:justify-start">
-          <button class="border-b border-b-whiteSmoke text-xl">
+          <button class="border border-whiteSmoke px-6 py-3 text-xl">
             ENTRAR EM CONTATO
           </button>
         </div>
@@ -196,11 +185,150 @@
         <!-- IMAGE DIV -->
       </div>
     </section>
-    <section>
-      <!--TODO: SERVICES-->
+    <section class="min-h-screen bg-deepForestGreen p-8 2xl:px-64">
+      <h1
+        class="mb-6 border-b py-2 text-center font-title text-4xl uppercase tracking-wider text-whiteSmoke md:inline-block md:text-start"
+      >
+        serviços
+      </h1>
+      <h2 class="mb-2 font-title text-2xl text-whiteSmoke">
+        Psicoterapia individual
+      </h2>
+      <p class="mb-8 text-whiteSmoke md:mb-16">
+        Ofereço atendimento psicológico para pessoas a partir dos 13 anos que
+        estão enfrentando sofrimento psíquico e emocional, assim como aqueles
+        que desejam lidar de maneira mais eficaz com diversas situações da vida.
+        Do ponto de vista clínico, a psicoterapia individual deve ser
+        considerada quando as atividades rotineiras começam a ser comprometidas,
+        impactando a qualidade de vida devido a sintomas recorrentes que surgem.
+      </p>
+      <h2 class="mb-4 font-title text-2xl text-whiteSmoke">Áreas de atuação</h2>
+      <div
+        class="flex flex-col flex-wrap items-center justify-between mb-16 gap-8 md:flex-row 2xl:gap-16 [&>*]:border [&>*]:bg-whiteSmoke [&>*]:text-deepForestGreen"
+      >
+        <!-- CARDS -->
+        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+          <div class="h-12 w-12"><img src="images/Stress.svg" alt="" /></div>
+          <h3 class="mb-4 mt-3 font-title text-2xl">Ansiedade</h3>
+          <p class="flex-1">
+            Quando você enfrenta a ansiedade, pode experimentar mais clareza
+            mental, controle emocional e um bem-estar físico que faz toda a
+            diferença no seu dia a dia. Além disso, ao lidar com esses
+            sentimentos, você se protege de problemas mais sérios, como insônia,
+            depressão e dificuldades em relacionamentos e no trabalho.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            >
+              Saiba mais
+            </button>
+          </div>
+        </div>
+        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+          <div class="h-12 w-12">
+            <img src="images/Depression.svg" alt="" />
+          </div>
+          <h3 class="mb-4 mt-3 font-title text-2xl">Depressão</h3>
+          <p class="flex-1">
+            A depressão é um transtorno que impacta profundamente o nosso humor,
+            trazendo sentimentos de tristeza intensa, falta de energia e perda
+            de interesse nas atividades que antes traziam alegria. Ela pode
+            afetar não apenas o nosso dia a dia, mas também as relações e a
+            saúde física.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            >
+              Saiba mais
+            </button>
+          </div>
+        </div>
+        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+          <div class="h-12 w-12"><img src="images/Brain.svg" alt="" /></div>
+          <h3 class="mb-4 mt-3 font-title text-2xl">Estresse</h3>
+          <p class="flex-1">
+            O estresse é uma resposta natural do nosso corpo diante de desafios,
+            mas quando se torna excessivo, pode levar ao esgotamento físico e
+            mental. Isso pode impactar nosso sono, nosso humor e até mesmo a
+            nossa saúde de forma geral.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            >
+              Saiba mais
+            </button>
+          </div>
+        </div>
+        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+          <div class="h-12 w-12">
+            <img src="images/Procrastinating.svg" alt="" />
+          </div>
+          <h3 class="mb-4 mt-3 font-title text-2xl">Procrastinação</h3>
+          <p class="flex-1">
+            A procrastinação é o hábito de adiar constantemente tarefas
+            importantes, o que pode levar a um acúmulo de pendências e aumentar
+            o estresse. Esse comportamento não só reduz a produtividade, mas
+            também pode afetar a autoestima e gerar sentimentos de culpa.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            >
+              Saiba mais
+            </button>
+          </div>
+        </div>
+        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+          <div class="h-12 w-12">
+            <img src="images/Relationship.svg" alt="" />
+          </div>
+          <h3 class="mb-4 mt-3 font-title text-2xl">Relacionamento</h3>
+          <p class="flex-1">
+            Problemas em relacionamentos podem trazer uma série de desafios
+            emocionais, como estresse e insegurança, impactando diretamente a
+            nossa saúde mental. A falta de comunicação, expectativas não
+            atendidas e conflitos frequentes podem gerar sentimentos de
+            ansiedade, baixa autoestima e até mesmo depressão.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            >
+              Saiba mais
+            </button>
+          </div>
+        </div>
+        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+          <div class="h-12 w-12"><img src="images/Hug.svg" alt="" /></div>
+          <h3 class="mb-4 mt-3 font-title text-2xl">Outros acolhimentos</h3>
+          <p class="flex-1">
+            ► Desenvolvimento pessoal (falta de auto-conhecimento,, dificuldade
+            em se relacionar, inseguranças, problemas de auto-estima) <br />
+            ► Comportamentos que afetam o dia-a-dia (auto-cobrança excessiva,
+            aumento ou perda de sono, compulsão e impulsividade, choro
+            frequente) <br />
+            ► Público LGBTQIA+
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            >
+              Saiba mais
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="flex w-full items-center justify-center">
+        <button class="border-2 font-semibold text-whiteSmoke border-whiteSmoke px-6 py-3 text-xl">
+          ENTRAR EM CONTATO
+        </button>
+      </div>
     </section>
-    <section>
-      <!--TODO: WHY DO THERAPY-->
+    <section class="min-h-screen bg-catbed bg-cover bg-center p-24 flex">
+      <div class="bg-whiteSmoke flex-1"> ola </div>
     </section>
     <section>
       <!--TODO: BENEFITS-->

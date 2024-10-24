@@ -17,6 +17,7 @@ module.exports = {
         'flowers': "url('/images/flowers.jpeg')",
         'casual': "url('/images/casual.jpeg')",
         'professional': "url('/images/professional.jpeg')",
+        'catbed': "url('/images/catbed.jpeg')"
       }
     },
   },
