@@ -722,6 +722,10 @@ video {
   width: 3rem;
 }
 
+.w-2\/3{
+  width: 66.666667%;
+}
+
 .w-3\/4{
   width: 75%;
 }
@@ -736,6 +740,10 @@ video {
 
 .w-\[75\%\]{
   width: 75%;
+}
+
+.w-auto{
+  width: auto;
 }
 
 .w-full{
@@ -833,6 +841,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-deepForestGreen{
+  --tw-border-opacity: 1;
+  border-color: rgb(51 79 64 / var(--tw-border-opacity));
+}
+
 .border-whiteSmoke{
   --tw-border-opacity: 1;
   border-color: rgb(245 245 245 / var(--tw-border-opacity));
@@ -866,16 +879,16 @@ video {
   background-image: url('/images/casual.jpeg');
 }
 
+.bg-catbed{
+  background-image: url('/images/catbed.jpeg');
+}
+
 .bg-hero{
   background-image: url('/images/psychologist.jpeg');
 }
 
 .bg-professional{
   background-image: url('/images/professional.jpeg');
-}
-
-.bg-catbed{
-  background-image: url('/images/catbed.jpeg');
 }
 
 .bg-cover{
@@ -892,14 +905,6 @@ video {
 
 .p-8{
   padding: 2rem;
-}
-
-.p-12{
-  padding: 3rem;
-}
-
-.p-24{
-  padding: 6rem;
 }
 
 .px-4{
@@ -993,6 +998,10 @@ video {
   font-weight: 300;
 }
 
+.font-medium{
+  font-weight: 500;
+}
+
 .font-normal{
   font-weight: 400;
 }
@@ -1003,6 +1012,10 @@ video {
 
 .uppercase{
   text-transform: uppercase;
+}
+
+.tracking-wide{
+  letter-spacing: 0.025em;
 }
 
 .tracking-wider{
@@ -1105,6 +1118,10 @@ video {
 
   .md\:mb-16{
     margin-bottom: 4rem;
+  }
+
+  .md\:block{
+    display: block;
   }
 
   .md\:inline-block{
@@ -1220,6 +1237,11 @@ video {
     line-height: 2.5rem;
   }
 
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .md\:text-8xl{
     font-size: 6rem;
     line-height: 1;
@@ -1244,12 +1266,29 @@ video {
     line-height: 2rem;
   }
 
+  .lg\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .lg\:tracking-widest{
     letter-spacing: 0.1em;
   }
 }
 
 @media (min-width: 1536px){
+  .\32xl\:mb-12{
+    margin-bottom: 3rem;
+  }
+
+  .\32xl\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
+  .\32xl\:mb-8{
+    margin-bottom: 2rem;
+  }
+
   .\32xl\:block{
     display: block;
   }
@@ -1264,6 +1303,18 @@ video {
 
   .\32xl\:h-\[32rem\]{
     height: 32rem;
+  }
+
+  .\32xl\:min-h-screen{
+    min-height: 100vh;
+  }
+
+  .\32xl\:min-h-\[80vh\]{
+    min-height: 80vh;
+  }
+
+  .\32xl\:w-3\/4{
+    width: 75%;
   }
 
   .\32xl\:w-full{
@@ -1296,6 +1347,11 @@ video {
   .\32xl\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .\32xl\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
