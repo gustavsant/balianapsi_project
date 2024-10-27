@@ -100,7 +100,7 @@
     >
       <div class="p-8 md:w-2/3">
         <h1
-          class="mb-4 inline-block w-full border-b border-b-deepForestGreen text-center font-title text-4xl uppercase text-deepForestGreen md:border-b-2 md:text-start md:text-8xl"
+          class="mb-4 inline-block w-full border-b border-b-deepForestGreen text-center font-title text-4xl uppercase text-deepForestGreen md:border-b-2 md:text-start md:text-4xl lg:text-5xl"
         >
           sobre mim
         </h1>
@@ -187,7 +187,7 @@
     </section>
     <section class="min-h-screen bg-deepForestGreen p-8 2xl:px-64">
       <h1
-        class="mb-6 border-b py-2 text-center font-title text-4xl uppercase tracking-wider text-whiteSmoke md:inline-block md:text-start"
+        class="mb-6 border-b py-2 text-center font-title text-4xl uppercase tracking-wider text-whiteSmoke md:inline-block md:text-start md:text-4xl lg:text-5xl"
       >
         serviços
       </h1>
@@ -204,7 +204,7 @@
       </p>
       <h2 class="mb-4 font-title text-2xl text-whiteSmoke">Áreas de atuação</h2>
       <div
-        class="flex flex-col flex-wrap items-center justify-between mb-16 gap-8 md:flex-row 2xl:gap-16 [&>*]:border [&>*]:bg-whiteSmoke [&>*]:text-deepForestGreen"
+        class="mb-16 flex flex-col flex-wrap items-center justify-between gap-8 md:flex-row 2xl:gap-16 [&>*]:border [&>*]:bg-whiteSmoke [&>*]:text-deepForestGreen"
       >
         <!-- CARDS -->
         <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
@@ -322,30 +322,77 @@
         </div>
       </div>
       <div class="flex w-full items-center justify-center">
-        <button class="border-2 font-semibold text-whiteSmoke border-whiteSmoke px-6 py-3 text-xl">
+        <button
+          class="border-2 border-whiteSmoke px-6 py-3 text-xl font-semibold text-whiteSmoke"
+        >
           ENTRAR EM CONTATO
         </button>
       </div>
     </section>
-    <section class="bg-whiteSmoke flex flex-col md:flex-row 2xl:min-h-[80vh]">
-      <div class="flex flex-col md:w-2/3 p-8">
-        <h1 class="mb-6 2xl:mb-12 text-2xl border-b border-deepForestGreen md:text-4xl lg:text-6xl font-title text-deepForestGreen uppercase text-center md:text-start font-bold tracking-wide">por que fazer psicoterapia?</h1>
+    <section class="flex flex-col bg-whiteSmoke md:flex-row 2xl:min-h-[80vh]">
+      <div class="flex flex-col p-8 md:w-2/3">
+        <h1
+          class="mb-6 border-b border-deepForestGreen text-center font-title text-2xl font-bold uppercase tracking-wide text-deepForestGreen md:text-start md:text-4xl lg:text-5xl 2xl:mb-12"
+        >
+          por que fazer psicoterapia?
+        </h1>
         <div class="mb-6 md:hidden">
-          <img src="images/catbed.jpeg" alt="">
+          <img src="images/catbed.jpeg" alt="" />
         </div>
-        <p class="text-xl mb-4 2xl:mb-8 2xl:text-2xl text-deepForestGreen font-medium ">Considere a psicoterapia como um processo que permite as pessoas um encontro com sua propria historia.</p>
-        <p class="mb-6 flex-1 2xl:w-3/4 2xl:text-xl ">O objetivo da psicoterapia é oferecer um espaço de <strong>acolhimento, empatia e livre de julgamentos</strong> para que por meio da escuta qualificada e do vinculo construido entre terapeuta e paciente você encontre mais <strong>qualidade de vida</strong> e ferramentas para viver cada vez mais uma vida mais alinhada aos seus valores através do seu <strong>autoconhecimento.</strong></p>
+        <p
+          class="mb-4 text-xl font-medium text-deepForestGreen 2xl:mb-8 2xl:text-2xl"
+        >
+          Considere a psicoterapia como um processo que permite as pessoas um
+          encontro com sua propria historia.
+        </p>
+        <p class="mb-6 flex-1 2xl:w-3/4 2xl:text-xl">
+          O objetivo da psicoterapia é oferecer um espaço de
+          <strong>acolhimento, empatia e livre de julgamentos</strong> para que
+          por meio da escuta qualificada e do vinculo construido entre terapeuta
+          e paciente você encontre mais <strong>qualidade de vida</strong> e
+          ferramentas para viver cada vez mais uma vida mais alinhada aos seus
+          valores através do seu <strong>autoconhecimento.</strong>
+        </p>
         <div class="flex w-full items-center justify-center md:justify-start">
-          <button class="border-2 font-semibold text-deepForestGreen border-deepForestGreen px-6 py-3 text-xl">
+          <button
+            class="border-2 border-deepForestGreen px-6 py-3 text-xl font-semibold text-deepForestGreen"
+          >
             INICIE SUA JORNADA
           </button>
         </div>
       </div>
-      <div class="bg-catbed bg-cover bg-center hidden md:block w-auto flex-1">
-      </div>
+      <div
+        class="hidden w-auto flex-1 bg-catbed bg-cover bg-center md:block"
+      ></div>
     </section>
-    <section>
+    <section class="flex p-8 flex-col justify-center items-center">
       <!--doing: BENEFITS-->
+      <h1 class="md:text-4xl lg:text-5xl max-w-[1200px] md:text-nowrap text-center w-full font-title text-deepForestGreen text-4xl uppercase flex justify-center items-center gap-4 before:inline after:inline-block before:w-full after:w-full before:h-1 after:h-1 after:bg-deepForestGreen before:bg-deepForestGreen">benefícios da psicoterapia</h1>
+      <div class="my-8 flex flex-wrap gap-x-8 gap-y-4 justify-center max-w-[1200px]">
+        <div class="max-w-[500px] text-center p-8 flex flex-col bg-goldenSand text-whiteSmoke justify-center items-center">
+          <h2 class="font-title text-2xl font-medium">Atendimento de qualidade</h2>
+          <p>Prezamos por manter a mesma qualidade dos atendimentos presenciais</p>
+        </div>
+        <div class="max-w-[500px] text-center p-8 flex flex-col bg-goldenSand text-whiteSmoke justify-center items-center">
+          <h2 class="font-title text-2xl font-medium">Horário flexível</h2>
+          <p>Podendo ser realizado no conforto da sua casa ou tabalho, sem deslocamento e transito.</p>
+        </div>
+        <div class="max-w-[500px] text-center p-8 flex flex-col bg-goldenSand text-whiteSmoke justify-center items-center">
+          <h2 class="font-title text-2xl font-medium">Facilidade</h2>
+          <p>Basta que tenha um espaço reservao para que as sessões aconteçam, rompendo fronteiras geográficas e facilitano a adesão ao tratamento</p>
+        </div>
+        <div class="max-w-[500px] text-center p-8 flex flex-col bg-goldenSand text-whiteSmoke justify-center items-center">
+          <h2 class="font-title text-2xl font-medium">Chamada de vídeo</h2>
+          <p>Profissional habilitado pelo conselho regional de psicologia (CRP) a realizar atendimentos online.</p>
+        </div>
+      </div>
+      <div class="flex w-full items-center justify-center md:justify-start">
+        <button
+          class="border-2 border-deepForestGreen px-6 py-3 text-xl font-semibold text-deepForestGreen"
+        >
+          SAIBA MAIS
+        </button>
+      </div>
     </section>
     <section>
       <!--TODO: ROW WITH PHOTOS-->
