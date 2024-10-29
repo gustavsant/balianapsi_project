@@ -13,11 +13,11 @@ module.exports = {
         body: ["Poppins"],
       },
       backgroundImage: {
-        'hero': "url('/images/psychologist.jpeg')",
-        'flowers': "url('/images/flowers.jpeg')",
-        'casual': "url('/images/casual.jpeg')",
-        'professional': "url('/images/professional.jpeg')",
-        'catbed': "url('/images/catbed.jpeg')"
+        'hero': "url(images/psychologist.jpeg')",
+        'flowers': "url(images/flowers.jpeg')",
+        'casual': "url(images/casual.jpeg')",
+        'professional': "url(images/professional.jpeg')",
+        'catbed': "url('images/catbed.jpeg')"
       }
     },
   },
