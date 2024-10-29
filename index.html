@@ -13,7 +13,7 @@
       <!--MAIN SECTION-->
       <nav
         id="nav"
-        class="fixed z-30 flex h-20 w-full flex-col items-center justify-center gap-[34px] overflow-hidden border-b border-black border-opacity-20 bg-deepForestGreen p-10 text-center align-middle font-light tracking-wider text-whiteSmoke transition-all md:relative md:h-28 md:flex-row [&>*]:font-body"
+        class="fixed z-30 flex h-20 w-full border flex-col items-center justify-center gap-[34px] overflow-hidden border-b border-black border-opacity-20 bg-deepForestGreen p-10 text-center align-middle font-light tracking-wider text-whiteSmoke transition-all md:relative md:h-28 md:flex-row [&>*]:font-body"
       >
         <button
           id="menu-button"
@@ -27,9 +27,9 @@
           ></ion-icon>
         </button>
         <div
-          class="absolute top-0 z-10 flex w-[75%] flex-col items-center justify-center bg-deepForestGreen pt-4 md:hidden"
+          class="absolute mt-6 top-0 z-10 flex w-[75%] flex-col items-center justify-center bg-deepForestGreen md:hidden"
         >
-          <img class="h-1/2 w-1/2" src="images/MenuTitle.svg" alt="" />
+          <img class="h-2/3 w-2/3" src="images/MenuTitle.svg" alt="" />
         </div>
         <div
           id="nav-items"
@@ -43,14 +43,14 @@
             <img src="images/MenuTitle.svg" alt="" />
           </div>
           <a class="inline-flex flex-col justify-start text-center after:h-0.5 after:w-0 after:bg-whiteSmoke hover:after:w-full after:transition-all" href="#why-do-psychoterapy">PORQUE FAZER TERAPIA</a>
-          <a class="inline-flex flex-col justify-start text-center after:h-0.5 after:w-0 after:bg-whiteSmoke hover:after:w-full after:transition-all" href="#contact">CONTATO</a>
+          <a class="inline-flflex-endex flex-col justify-start text-center after:h-0.5 after:w-0 after:bg-whiteSmoke hover:after:w-full after:transition-all" href="#contact">CONTATO</a>
         </div>
       </nav>
       <div
         class="bg-hero flex flex-1 justify-center bg-cover bg-center md:bg-none"
       >
-        <div
-          class="md:align-center relative mt-36 flex w-3/4 max-w-4xl flex-col-reverse justify-end bg-cover md:my-12 md:w-2/3 md:flex-row md:items-center md:justify-normal lg:max-w-5xl"
+        <div 
+          class=" md:align-center relative flex w-3/4 max-w-4xl flex-col-reverse justify-center bg-cover md:my-12 md:w-2/3 md:flex-row md:items-center md:justify-normal lg:max-w-5xl"
         >
           <img
             src="images/orchid.svg"
@@ -58,10 +58,10 @@
             class="absolute left-[-16rem] top-[-7rem] hidden -rotate-[55deg] 2xl:flex 2xl:h-[32rem]"
           />
           <div
-            class="z-[3] flex flex-col items-center justify-center gap-8 bg-goldenSand p-8 md:absolute md:w-[450px] md:px-12 md:py-16 lg:w-[550px] 2xl:h-96"
+            class="z-[3] flex flex-col items-center justify-center gap-8 bg-none md:bg-goldenSand p-8 md:absolute md:w-[450px] md:px-12 md:py-16 lg:w-[550px] 2xl:h-96"
           >
             <p
-              class="text-center font-title text-xl uppercase tracking-wider text-whiteSmoke lg:text-2xl"
+              class="brightness-100 text-center font-title text-xl uppercase tracking-wider text-whiteSmoke lg:text-2xl"
             >
               A terapia não é uma promessa de que tudo vai ficar bem, mas uma
               possibilidade que as coisas podem ficar melhores
@@ -69,7 +69,7 @@
             <a
               href="https://wa.me/553491029072"
               target="_blank"
-              class="transition-transform hover:scale-105 -bottom-6 right-8 cursor-pointer bg-whiteSmoke px-5 py-3 text-xl tracking-wider md:absolute"
+              class="transition-transform hover:scale-105 -bottom-6 right-8 cursor-pointer bg-whiteSmoke px-5 py-3 md:text-xl tracking-wider md:absolute"
             >
               ENTRAR EM CONTATO
             </a>
@@ -91,7 +91,7 @@
       </div>
     </section>
     <section id="about"
-      class="before:bg-flowers relative flex min-h-screen w-full items-center justify-center gap-8 before:absolute before:right-0 before:top-0 before:h-full before:w-full before:bg-cover before:bg-fixed before:bg-center before:opacity-10 md:px-28 2xl:px-64"
+      class="before:bg-flowers relative flex min-h-screen w-full items-center justify-center gap-8 before:absolute before:-z-10 before:right-0 before:top-0 before:h-full before:w-full before:bg-cover before:bg-fixed before:bg-center before:opacity-10 md:px-28 2xl:px-64"
     >
       <div class="p-8 md:w-2/3">
         <h1
@@ -104,7 +104,7 @@
             class="bg-casual h-72 w-72 rounded-full bg-cover bg-center"
           ></div>
         </div>
-        <h2 class="my-4 text-center text-2xl md:text-start">
+        <h2 class="my-4 text-2xl text-start">
           Olá! Me chamo Amanda Baliana.
         </h2>
         <div>
@@ -174,7 +174,7 @@
           <a
             href="https://wa.me/553491029072"
             target="_blank"
-            class="border border-whiteSmoke px-6 py-3 text-xl"
+            class="border border-whiteSmoke px-6 py-3 text-xl font-medium"
           >
             ENTRAR EM CONTATO
           </a>
@@ -382,7 +382,7 @@
         class="hidden w-auto flex-1 bg-catbed bg-cover bg-center md:block"
       ></div>
     </section>
-    <section id="psychoterapy-benefits" class="relative before:absolute before:bg-center before:bg-fixed before:bg-cover before:opacity-10 before:bg-flowers before:w-full before:h-full before:top-0 before:right-0 flex flex-col items-center justify-center p-8">
+    <section id="psychoterapy-benefits" class="relative before:absolute before:bg-center before:bg-fixed before:bg-cover before:opacity-10 before:bg-flowers before:w-full before:-z-10 before:h-full before:top-0 before:right-0 flex flex-col items-center justify-center p-8">
       <!--doing: BENEFITS-->
       <h1
         class="flex w-full max-w-[1200px] items-center justify-center gap-4 text-center font-title text-4xl uppercase text-deepForestGreen before:inline before:h-1 before:w-full before:bg-deepForestGreen after:inline-block after:h-1 after:w-full after:bg-deepForestGreen md:text-nowrap md:text-4xl lg:text-5xl"
