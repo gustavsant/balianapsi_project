@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
     <title>Amanda Baliana Psicóloga</title>
+    <script src="app.js"></script>
   </head>
 
   <body class="font-body">
@@ -16,7 +17,7 @@
         class="fixed z-30 flex h-20 w-full flex-col items-center justify-center gap-[34px] overflow-hidden border-b border-black border-opacity-20 bg-deepForestGreen p-4 text-center align-middle font-light tracking-wider text-whiteSmoke transition-all md:relative md:h-32 md:flex-row [&>*]:font-body"
       >
         <button
-          id="botaomenu"
+          id="menu-button"
           class="absolute right-0 top-0 z-50 mr-4 mt-6 text-3xl text-whiteSmoke md:hidden"
         >
           <ion-icon id="menu-icon" class="" name="menu-outline"></ion-icon>
@@ -73,11 +74,11 @@
               A terapia não é uma promessa de que tudo vai ficar bem, mas uma
               possibilidade que as coisas podem ficar melhores
             </p>
-            <button
-              class="-bottom-6 right-8 bg-whiteSmoke px-5 py-3 text-xl tracking-wider md:absolute"
+            <a href="https://wa.me/553491029072" target="_blank"
+              class="-bottom-6 right-8 bg-whiteSmoke px-5 py-3 text-xl tracking-wider md:absolute cursor-pointer"
             >
               ENTRAR EM CONTATO
-            </button>
+            </a>
           </div>
           <div class="md:flex-1"></div>
           <div class="hidden md:relative md:flex 2xl:h-[32rem]">
@@ -100,7 +101,7 @@
     >
       <div class="p-8 md:w-2/3">
         <h1
-          class="mb-4 inline-block w-full border-b border-b-deepForestGreen text-center font-title text-4xl uppercase text-deepForestGreen md:border-b-2 md:text-start md:text-4xl lg:text-5xl"
+          class="mb-4 inline-block w-full border-b border-b-deepForestGreen text-center font-title text-4xl uppercase text-deepForestGreen md:border-b-2 md:text-start md:text-4xl lg:text-6xl"
         >
           sobre mim
         </h1>
@@ -146,7 +147,7 @@
         <!-- TEXTS DIV -->
         <div class="flex justify-center md:justify-start">
           <h1
-            class="mb-4 block border-b border-whiteSmoke text-center font-title text-2xl uppercase md:w-1/2 md:border-b-0 md:text-start md:text-4xl 2xl:w-full 2xl:text-5xl"
+            class="mb-4 block border-b border-whiteSmoke text-center font-title text-2xl uppercase md:w-1/2 md:border-b-0 md:text-start md:text-4xl 2xl:w-full 2xl:text-6xl"
           >
             minha prática terapêutica
           </h1>
@@ -176,9 +177,9 @@
           perspectiva mais significativa sobre sua vida, estou a seu serviço!
         </p>
         <div class="flex w-full items-center justify-center md:justify-start">
-          <button class="border border-whiteSmoke px-6 py-3 text-xl">
+          <a href="https://wa.me/553491029072" target="_blank" class="border border-whiteSmoke px-6 py-3 text-xl">
             ENTRAR EM CONTATO
-          </button>
+          </a>
         </div>
       </div>
       <div class="flex-1 bg-professional bg-cover bg-center">
@@ -187,11 +188,11 @@
     </section>
     <section class="min-h-screen bg-deepForestGreen p-8 2xl:px-64">
       <h1
-        class="mb-6 border-b py-2 text-center font-title text-4xl uppercase tracking-wider text-whiteSmoke md:inline-block md:text-start md:text-4xl lg:text-5xl"
+        class="mb-6 border-b py-2 text-center font-title text-4xl uppercase tracking-wider text-whiteSmoke md:inline-block md:text-start md:text-4xl lg:text-6xl"
       >
         serviços
       </h1>
-      <h2 class="mb-2 font-title text-2xl text-whiteSmoke">
+      <h2 class="mb-2 font-title text-2xl md:text-4xl text-whiteSmoke">
         Psicoterapia individual
       </h2>
       <p class="mb-8 text-whiteSmoke md:mb-16">
@@ -202,9 +203,9 @@
         considerada quando as atividades rotineiras começam a ser comprometidas,
         impactando a qualidade de vida devido a sintomas recorrentes que surgem.
       </p>
-      <h2 class="mb-4 font-title text-2xl text-whiteSmoke">Áreas de atuação</h2>
+      <h2 class="mb-4 font-title text-2xl md:text-4xl text-whiteSmoke">Áreas de atuação</h2>
       <div
-        class="mb-16 flex flex-col flex-wrap items-center justify-between gap-8 md:flex-row 2xl:gap-16 [&>*]:border [&>*]:bg-whiteSmoke [&>*]:text-deepForestGreen"
+        class="mb-16 flex flex-col flex-wrap items-center justify-center xl:justify-between gap-8 md:flex-row 2xl:gap-16 [&>*]:border [&>*]:bg-whiteSmoke [&>*]:text-deepForestGreen"
       >
         <!-- CARDS -->
         <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
@@ -218,11 +219,12 @@
             depressão e dificuldades em relacionamentos e no trabalho.
           </p>
           <div class="flex justify-center">
-            <button
-              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            <a 
+            href="https://wa.me/553491029072" target="_blank"
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-center text-whiteSmoke"
             >
               Saiba mais
-            </button>
+            </a>
           </div>
         </div>
         <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
@@ -238,11 +240,12 @@
             saúde física.
           </p>
           <div class="flex justify-center">
-            <button
-              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            <a 
+            href="https://wa.me/553491029072" target="_blank"
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-center text-whiteSmoke"
             >
               Saiba mais
-            </button>
+            </a>
           </div>
         </div>
         <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
@@ -255,11 +258,12 @@
             nossa saúde de forma geral.
           </p>
           <div class="flex justify-center">
-            <button
-              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            <a 
+            href="https://wa.me/553491029072" target="_blank"
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-center text-whiteSmoke"
             >
               Saiba mais
-            </button>
+            </a>
           </div>
         </div>
         <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
@@ -274,11 +278,12 @@
             também pode afetar a autoestima e gerar sentimentos de culpa.
           </p>
           <div class="flex justify-center">
-            <button
-              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            <a 
+            href="https://wa.me/553491029072" target="_blank"
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-center text-whiteSmoke"
             >
               Saiba mais
-            </button>
+            </a>
           </div>
         </div>
         <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
@@ -294,11 +299,12 @@
             ansiedade, baixa autoestima e até mesmo depressão.
           </p>
           <div class="flex justify-center">
-            <button
-              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            <a 
+            href="https://wa.me/553491029072" target="_blank"
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-center text-whiteSmoke"
             >
               Saiba mais
-            </button>
+            </a>
           </div>
         </div>
         <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
@@ -313,20 +319,22 @@
             ► Público LGBTQIA+
           </p>
           <div class="flex justify-center">
-            <button
-              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-whiteSmoke"
+            <a 
+            href="https://wa.me/553491029072" target="_blank"
+              class="w-1/2 border bg-deepForestGreen px-4 py-2 text-center text-whiteSmoke"
             >
               Saiba mais
-            </button>
+            </a>
           </div>
         </div>
       </div>
       <div class="flex w-full items-center justify-center">
-        <button
-          class="border-2 border-whiteSmoke px-6 py-3 text-xl font-semibold text-whiteSmoke"
+        <a
+        href="https://wa.me/553491029072" target="_blank"
+          class="border-2 cursor-pointer border-whiteSmoke px-6 py-3 text-xl font-semibold text-whiteSmoke"
         >
           ENTRAR EM CONTATO
-        </button>
+        </a>
       </div>
     </section>
     <section class="flex flex-col bg-whiteSmoke md:flex-row 2xl:min-h-[80vh]">
@@ -354,51 +362,111 @@
           valores através do seu <strong>autoconhecimento.</strong>
         </p>
         <div class="flex w-full items-center justify-center md:justify-start">
-          <button
-            class="border-2 border-deepForestGreen px-6 py-3 text-xl font-semibold text-deepForestGreen"
+          <a
+          href="https://wa.me/553491029072" target="_blank"
+            class="border-2 cursor-pointer border-deepForestGreen px-6 py-3 text-xl font-semibold text-deepForestGreen"
           >
             INICIE SUA JORNADA
-          </button>
+          </a>
         </div>
       </div>
       <div
         class="hidden w-auto flex-1 bg-catbed bg-cover bg-center md:block"
       ></div>
     </section>
-    <section class="flex p-8 flex-col justify-center items-center">
+    <section class="flex flex-col items-center justify-center p-8">
       <!--doing: BENEFITS-->
-      <h1 class="md:text-4xl lg:text-5xl max-w-[1200px] md:text-nowrap text-center w-full font-title text-deepForestGreen text-4xl uppercase flex justify-center items-center gap-4 before:inline after:inline-block before:w-full after:w-full before:h-1 after:h-1 after:bg-deepForestGreen before:bg-deepForestGreen">benefícios da psicoterapia</h1>
-      <div class="my-8 flex flex-wrap gap-x-8 gap-y-4 justify-center max-w-[1200px]">
-        <div class="max-w-[500px] text-center p-8 flex flex-col bg-goldenSand text-whiteSmoke justify-center items-center">
-          <h2 class="font-title text-2xl font-medium">Atendimento de qualidade</h2>
-          <p>Prezamos por manter a mesma qualidade dos atendimentos presenciais</p>
+      <h1
+        class="flex w-full max-w-[1200px] items-center justify-center gap-4 text-center font-title text-4xl uppercase text-deepForestGreen before:inline before:h-1 before:w-full before:bg-deepForestGreen after:inline-block after:h-1 after:w-full after:bg-deepForestGreen md:text-nowrap md:text-4xl lg:text-5xl"
+      >
+        benefícios da psicoterapia
+      </h1>
+      <div
+        class="my-8 flex max-w-[1200px] flex-wrap justify-center gap-x-8 gap-y-4"
+      >
+        <div
+          class="flex max-w-[500px] flex-col items-center justify-center bg-goldenSand p-8 text-center text-whiteSmoke"
+        >
+          <h2 class="font-title text-2xl font-medium">
+            Atendimento de qualidade
+          </h2>
+          <p>
+            Prezamos por manter a mesma qualidade dos atendimentos presenciais
+          </p>
         </div>
-        <div class="max-w-[500px] text-center p-8 flex flex-col bg-goldenSand text-whiteSmoke justify-center items-center">
+        <div
+          class="flex max-w-[500px] flex-col items-center justify-center bg-goldenSand p-8 text-center text-whiteSmoke"
+        >
           <h2 class="font-title text-2xl font-medium">Horário flexível</h2>
-          <p>Podendo ser realizado no conforto da sua casa ou tabalho, sem deslocamento e transito.</p>
+          <p>
+            Podendo ser realizado no conforto da sua casa ou tabalho, sem
+            deslocamento e transito.
+          </p>
         </div>
-        <div class="max-w-[500px] text-center p-8 flex flex-col bg-goldenSand text-whiteSmoke justify-center items-center">
+        <div
+          class="flex max-w-[500px] flex-col items-center justify-center bg-goldenSand p-8 text-center text-whiteSmoke"
+        >
           <h2 class="font-title text-2xl font-medium">Facilidade</h2>
-          <p>Basta que tenha um espaço reservao para que as sessões aconteçam, rompendo fronteiras geográficas e facilitano a adesão ao tratamento</p>
+          <p>
+            Basta que tenha um espaço reservao para que as sessões aconteçam,
+            rompendo fronteiras geográficas e facilitano a adesão ao tratamento
+          </p>
         </div>
-        <div class="max-w-[500px] text-center p-8 flex flex-col bg-goldenSand text-whiteSmoke justify-center items-center">
+        <div
+          class="flex max-w-[500px] flex-col items-center justify-center bg-goldenSand p-8 text-center text-whiteSmoke"
+        >
           <h2 class="font-title text-2xl font-medium">Chamada de vídeo</h2>
-          <p>Profissional habilitado pelo conselho regional de psicologia (CRP) a realizar atendimentos online.</p>
+          <p>
+            Profissional habilitado pelo conselho regional de psicologia (CRP) a
+            realizar atendimentos online.
+          </p>
         </div>
       </div>
       <div class="flex w-full items-center justify-center md:justify-start">
-        <button
-          class="border-2 border-deepForestGreen px-6 py-3 text-xl font-semibold text-deepForestGreen"
+        <a 
+        href="https://wa.me/553491029072" target="_blank"
+          class="border-2 cursor-pointer border-deepForestGreen px-6 py-3 text-xl font-semibold text-deepForestGreen"
         >
           SAIBA MAIS
-        </button>
+        </a>
       </div>
     </section>
-    <section>
-      <!--TODO: ROW WITH PHOTOS-->
-    </section>
-    <footer>
-      <!--        TODO: FOOTER-->
+    <footer class="p-16 flex flex-col lg:flex-row justify-between gap-16 items-center bg-deepForestGreen text-whiteSmoke">
+      <div class="lg:w-1/3">
+        <p>
+          Se você sente que é hora de cuidar da sua saúde mental, estou aqui
+          para te apoiar. Vamos juntos dar esse primeiro passo e
+          compartilhar essa jornada!
+        </p>
+      </div>
+      <img class="flex-1 max-w-96" src="images/logo.svg" alt="" />
+      <div class="w-full lg:w-1/3 text-xl uppercase font-medium flex flex-col gap-4 items-start">
+        <a href="https://wa.me/553491029072" target="_blank" class="flex w-full  flex-row items-center gap-3 cursor-pointer">
+          <div class="flex-1 gap-4 items-center flex">
+            <ion-icon class="text-3xl" name="logo-instagram"></ion-icon>
+            <span>instagram</span>
+          </div>
+          <div class="flex flex-row justify-center items-center before:w-16 before:h-[2px] before:-mr-2 before:bg-whiteSmoke after:content-['>'] after:text-2xl">
+            
+          </div>
+        </a>
+        <a href="https://wa.me/553491029072" target="_blank" class="flex w-full flex-row items-center gap-3 cursor-pointer">
+          <div class="flex-1 gap-4 items-center flex">
+            <ion-icon class="text-3xl" name="logo-whatsapp"></ion-icon>
+            <span>whastapp</span>
+          </div>
+          <div class="flex flex-row justify-center items-center before:w-16 before:h-[2px] before:-mr-2 before:bg-whiteSmoke after:content-['>'] after:text-2xl">
+          </div>
+        </a>
+        <a href="https://wa.me/553491029072" target="_blank" class="flex w-full  flex-row items-center gap-3 cursor-pointer">
+          <div class="flex-1 gap-4 items-center flex">
+            <ion-icon class="text-3xl" name="mail-outline"></ion-icon>
+            <span>email</span>
+          </div>
+          <div class="flex flex-row justify-center items-center before:w-16 before:h-[2px] before:-mr-2 before:bg-whiteSmoke after:content-['>'] after:text-2xl">
+          </div>
+        </a>
+      </div>
     </footer>
     <script
       type="module"
@@ -409,21 +477,4 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
   </body>
-  <script>
-    const navBar = document.getElementById("nav");
-    const botao = document.getElementById("botaomenu");
-    const navItems = document.getElementById("nav-items");
-    botao.addEventListener("click", menuToggle);
-
-    function menuToggle() {
-      const menuIcon = document.getElementById("menu-icon");
-      const closeIcon = document.getElementById("close-icon");
-
-      menuIcon.classList.toggle("hidden");
-      closeIcon.classList.toggle("hidden");
-      navBar.classList.toggle("h-20");
-      navBar.classList.toggle("pt-20");
-      navItems.classList.toggle("opacity-0");
-    }
-  </script>
 </html>
