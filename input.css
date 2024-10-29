@@ -3,3 +3,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .bg-hero {
+        background-image: url('images/psychology.jpg');
+    }
+
+    .bg-casual {
+        background-image: url('images/casual.jpeg');
+    }
+
+    .bg-professional {
+        background-image: url('images/professional.jpeg');
+    } 
+
+    .bg-flowers {
+        background-image: url('images/flowers.jpeg');
+    }
+}
+
