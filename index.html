@@ -6,6 +6,8 @@
     <link href="./output.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <title>Amanda Baliana Psicóloga</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
   </head>
 
@@ -48,16 +50,13 @@
         </div>
       </nav>
       <div
+      data-aos="zoom-in"
         class="bg-hero flex flex-1 justify-center bg-cover bg-center md:bg-none"
       >
         <div 
           class=" md:align-center relative flex w-3/4 max-w-4xl flex-col-reverse justify-center bg-cover md:my-12 md:w-2/3 md:flex-row md:items-center md:justify-normal lg:max-w-5xl"
         >
-          <img
-            src="images/orchid.svg"
-            alt=""
-            class="absolute left-[-16rem] top-[-7rem] hidden -rotate-[55deg] 2xl:flex 2xl:h-[32rem]"
-          />
+
           <div
             class="z-[3] flex flex-col items-center justify-center gap-8 bg-none md:bg-goldenSand p-8 md:absolute md:w-[450px] md:px-12 md:py-16 lg:w-[550px] 2xl:h-96"
           >
@@ -82,16 +81,12 @@
               alt=""
               class="z-[2] md:relative"
             />
-            <img
-              src="images/orchid.svg"
-              alt=""
-              class="absolute left-[28.5rem] top-60 hidden h-[rem] -rotate-[230deg] 2xl:block"
-            />
+
           </div>
         </div>
       </div>
     </section>
-    <section id="about"
+    <section data-aos="fade-up" id="about"
       class="before:bg-flowers relative flex min-h-screen w-full items-center justify-center gap-8 before:absolute before:-z-10 before:right-0 before:top-0 before:h-full before:w-full before:bg-cover before:bg-fixed before:bg-center before:opacity-10 md:px-28 2xl:px-64"
     >
       <div class="p-8 md:w-2/3">
@@ -140,14 +135,14 @@
     >
       <div class="flex flex-col md:w-[60%] md:p-8 2xl:pr-72">
         <!-- TEXTS DIV -->
-        <div class="flex justify-center md:justify-start">
+        <div  data-aos="fade-left" class="flex justify-center md:justify-start">
           <h1
             class="mb-4 block border-b border-whiteSmoke text-center font-title text-2xl uppercase md:w-1/2 md:border-b-0 md:text-start md:text-4xl 2xl:w-full 2xl:text-6xl"
           >
             minha prática terapêutica
           </h1>
         </div>
-        <div class="flex flex-1 flex-col gap-8 md:flex-row">
+        <div data-aos="fade-left" class="flex flex-1 flex-col gap-8 md:flex-row">
           <p class="text-justify md:w-1/2">
             Meu propósito é trabalhar com você para compreendermos, através do
             diálogo, como sua história pessoal foi construída, quais sentidos e
@@ -157,8 +152,8 @@
             que promovam um relacionamento mais saudável com sua própria
             identidade e com os outros.
           </p>
-          <div class="md:hidden">
-            <img src="images/professional.jpeg" alt="" />
+          <div  class="md:hidden">
+            <img data-aos="fade-right" src="images/professional.jpeg" alt="" />
           </div>
           <p class="text-justify md:w-1/2">
             Minhas sessões são caracterizadas por um ambiente dialogado e
@@ -167,18 +162,20 @@
             que você tenha um papel ativo em seu processo de mudança.
           </p>
         </div>
-        <p class="my-6 font-bold md:w-3/4">
-          Se você está buscando um espaço seguro para desenvolver uma
-          perspectiva mais significativa sobre sua vida, estou a seu serviço!
-        </p>
-        <div class="flex w-full items-center justify-center md:justify-start">
-          <a
-            href="https://wa.me/553491029072"
-            target="_blank"
-            class="border border-whiteSmoke px-6 py-3 text-xl font-medium"
-          >
-            ENTRAR EM CONTATO
-          </a>
+        <div  data-aos="fade-up">
+          <p class="my-6 font-bold md:w-3/4">
+            Se você está buscando um espaço seguro para desenvolver uma
+            perspectiva mais significativa sobre sua vida, estou a seu serviço!
+          </p>
+          <div class="flex w-full items-center justify-center md:justify-start">
+            <a
+              href="https://wa.me/553491029072"
+              target="_blank"
+              class="border border-whiteSmoke px-6 py-3 text-xl font-medium"
+            >
+              ENTRAR EM CONTATO
+            </a>
+        </div>
         </div>
       </div>
       <div class="bg-professional flex-1 bg-cover bg-center">
@@ -204,7 +201,7 @@
         class="mb-16 flex flex-col flex-wrap items-center justify-center gap-8 md:flex-row xl:justify-between 2xl:gap-16 [&>*]:border [&>*]:bg-whiteSmoke [&>*]:text-deepForestGreen"
       >
         <!-- CARDS -->
-        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+        <div data-aos="zoom-in-up" class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
           <div class="h-12 w-12"><img src="images/Stress.svg" alt="" /></div>
           <h3 class="mb-4 mt-3 font-title text-2xl">Ansiedade</h3>
           <p class="flex-1">
@@ -224,7 +221,7 @@
             </a>
           </div>
         </div>
-        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+        <div data-aos="zoom-in-up" class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
           <div class="h-12 w-12">
             <img src="images/Depression.svg" alt="" />
           </div>
@@ -246,7 +243,7 @@
             </a>
           </div>
         </div>
-        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+        <div data-aos="zoom-in-up" class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
           <div class="h-12 w-12"><img src="images/Brain.svg" alt="" /></div>
           <h3 class="mb-4 mt-3 font-title text-2xl">Estresse</h3>
           <p class="flex-1">
@@ -265,7 +262,7 @@
             </a>
           </div>
         </div>
-        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+        <div data-aos="zoom-in-up" class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
           <div class="h-12 w-12">
             <img src="images/Procrastinating.svg" alt="" />
           </div>
@@ -286,7 +283,7 @@
             </a>
           </div>
         </div>
-        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+        <div data-aos="zoom-in-up" class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
           <div class="h-12 w-12">
             <img src="images/Relationship.svg" alt="" />
           </div>
@@ -308,7 +305,7 @@
             </a>
           </div>
         </div>
-        <div class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
+        <div data-aos="zoom-in-up" class="flex h-[30rem] w-full flex-col p-4 md:w-[20rem]">
           <div class="h-12 w-12"><img src="images/Hug.svg" alt="" /></div>
           <h3 class="mb-4 mt-3 font-title text-2xl">Outros acolhimentos</h3>
           <p class="flex-1">
@@ -390,6 +387,7 @@
         class="my-8 flex max-w-[1200px] flex-wrap justify-center gap-x-8 gap-y-4"
       >
         <div
+          data-aos="fade-right"
           class="flex max-w-[500px] flex-col items-center justify-center bg-goldenSand p-8 text-center text-whiteSmoke"
         >
           <h2 class="font-title text-2xl font-medium">
@@ -400,6 +398,7 @@
           </p>
         </div>
         <div
+        data-aos="fade-left"
           class="flex max-w-[500px] flex-col items-center justify-center bg-goldenSand p-8 text-center text-whiteSmoke"
         >
           <h2 class="font-title text-2xl font-medium">Horário flexível</h2>
@@ -409,6 +408,7 @@
           </p>
         </div>
         <div
+          data-aos="fade-right"
           class="flex max-w-[500px] flex-col items-center justify-center bg-goldenSand p-8 text-center text-whiteSmoke"
         >
           <h2 class="font-title text-2xl font-medium">Facilidade</h2>
@@ -418,6 +418,7 @@
           </p>
         </div>
         <div
+        data-aos="fade-left"
           class="flex max-w-[500px] flex-col items-center justify-center bg-goldenSand p-8 text-center text-whiteSmoke"
         >
           <h2 class="font-title text-2xl font-medium">Chamada de vídeo</h2>
@@ -498,5 +499,8 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
