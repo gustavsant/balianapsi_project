@@ -15,4 +15,59 @@ window.addEventListener("DOMContentLoaded", () => {
       navBar.classList.toggle("pt-20");
       navItems.classList.toggle("opacity-0");
     }
+
+    const slideLeft = {
+      origin: 'left',
+      distance: '50px'
+    }
+
+    const slideRight = {
+      origin: 'right',
+      distance: '50px'
+    }
+    
+    const slideDown = {
+      origin: 'top',
+      distance: '50px'
+    }
+
+    const slideUp = {
+      origin: 'bottom',
+      distance: '50px'
+    }
+
+    const zoomDelayOne = {
+      delay: 100,
+      scale: .85
+    }
+
+    const zoomDelayTwo = {
+      delay: 200,
+      scale: .85
+    }
+
+    const zoomDelayThree = {
+      delay: 300,
+      scale: .85
+    }
+
+    const zoomDelayFour = {
+      delay: 400,
+      scale: .85
+    }
+
+    
+    
+    ScrollReveal().reveal('.hero', {distance: '85px'})
+    ScrollReveal().reveal('#about', {scale: 1.15})
+    ScrollReveal().reveal('.fade-left', slideLeft)
+    ScrollReveal().reveal('.fade-right', slideRight)
+    ScrollReveal().reveal('.slide-up', slideUp)
+    ScrollReveal().reveal('.slide-down', slideDown)
+    ScrollReveal().reveal('.zoom-in')
+
+    ScrollReveal().reveal('.delay-One', zoomDelayOne)
+    ScrollReveal().reveal('.delay-Two', zoomDelayTwo)
+    ScrollReveal().reveal('.delay-Three', zoomDelayThree)
+    ScrollReveal().reveal('.delay-Four', zoomDelayFour)
 })
